@@ -1,0 +1,281 @@
+/** parte do codigo referente a estrutura da pagina**/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+}
+
+html, body {
+	height:100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+	height: 1600px;
+	background-color: #f5f5f5;
+}
+/*Para ajustar padrão do chrome*/
+section {
+	display: inline-block;
+}
+
+h1, p{
+	color: white
+}
+.sli1{
+  position:relative;
+  margin:0 auto;
+  top:350px;
+  left:0px;
+  width:980px;
+  height:380px;
+  overflow:hidden;
+  visibility:hidden;
+}
+.sli2{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  text-align:center;
+  background-color:rgba(0,0,0,0.7);">
+}
+.sli3{
+  cursor:default;
+  position:relative;
+  top:0px;
+  left:0px;
+  width:980px;
+  height:380px;
+  overflow:hidden;
+}
+.imgslid{
+  margin-top:-19px
+  ;position:relative;
+  top:50%;width:38px;
+  height:38px;
+}
+/** formata elementos que tem backgrounds parallax **/
+.parallax {
+	font-family: 'tahoma', sans-serif;
+	color:#fff;
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 1920px;*/
+
+	min-height: 52%;
+	text-shadow:0 0 10px rgba(0,0,0,0.7);
+
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/* Define backgrounds dos divs */
+.flog{
+	width: 600px;
+	height: 300px;
+	margin: auto;
+	margin-top: 400px;
+	border: 1px solid red;
+}
+.img3{
+	width: 272px;
+	height: 175px;
+	left: 50%
+	top: 50%;
+
+}
+#home {
+	background-image: url("https://criticalhits.com.br/wp-content/uploads/2017/09/fifa-18-01.jpg");
+}
+#fifa {
+	background-image: url("https://criticalhits.com.br/wp-content/uploads/2017/09/fifa-18-01.jpg");
+}
+#portfolio {
+
+	background-image: url("https://images2.alphacoders.com/602/thumb-1920-602223.jpg");
+}
+#portfolio2{
+	background-image: url("http://www.wallpaperhd.pk/wp-content/uploads/2016/08/daylight-game-4k-wallpaper-1920x1200.jpg");
+}
+/** Formata o article que vai o texto **/
+.parallax article {
+	width: 70%;
+	text-align: center;
+	margin:0 auto;
+}
+#home article { padding:20% 0 0; }
+#portfolio article { padding:15% 0 0;}
+#portfolio2 article { padding:15% 0 0;}
+
+/** formata texto **/
+article header { margin-bottom: 30px; }
+article h1 {font-size:40px;}
+article p {line-height: 30px; font-size:20px; margin-top:15px; text-shadow: 0 0 20px #000; }
+article ul { list-style:none; padding: 0; margin: 0; }
+article li { display: inline-block; }
+.button {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid white;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+		position:absolute;
+		left:50%;
+		top:50%;
+		margin-left:-90px;
+		margin-top:300px;
+
+}
+.button1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid white;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+		position:absolute;
+		left:50%;
+		top:50%;
+		margin-left:50px;
+		margin-top:300px;
+
+}
+.button3 {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid white;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+		position:absolute;
+		left:50%;
+		top:50%;
+		margin-left:-190px;
+		margin-top:300px;
+
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+/**Parte do codigo referente ao menu**/
+#top {
+	width: 960px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+#top img {
+	margin-top: 30px;
+}
+
+#menuHeader {
+	position: relative;;
+	width: 100%;
+	height: 50px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#menuHeader ul {
+	width: 960px;
+	margin: 0 auto;
+	list-style: none;
+}
+
+#menuHeader ul li {
+	float: left;
+}
+
+#menuHeader li a {
+	padding: 15px  30px;
+	line-height: 50px;
+	text-decoration: none;
+	color: #fff;
+}
+
+#menuHeader :hover{
+	color: green;
+}
+
+.menu-fixo  {
+	position:fixed !important;
+	top: 0;
+	z-index: 99;
+}
+
+#menu-hidde a {
+	color: white;
+}
+
+/**icone menu**/
+.logo{
+	max-height: 24px;
+	position: relative;
+  float: right;
+	display: block;
+	transition: max-height .5s
+}
+#menu-trigger {
+    width: 30px;
+    height: 20px;
+    position: fixed;
+    top: 10px;
+    margin-right: 20px;
+    right: 0;
+    cursor: pointer;
+
+}
+
+.menu-trigger  div {
+    width: 30px;
+    height: 4px;
+    background: white none repeat scroll 0% 0%;
+    margin-top: 3px;
+}
+
+.menu-hidde {
+    background: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 100%;
+    box-shadow: 1px 2px 3px #DDD;
+    left: -100%;
+    transition: left 0.5s ease 0s;
+		position: fixed;
+}
+
+.menu-hidde li {
+    color: #fff;
+    font-size: 20px;
+    padding: 18px;
+    cursor: pointer;
+		float: none;
+}
+
+.menu-hidde ul {
+    position: absolute;
+    top: 200px;
+}

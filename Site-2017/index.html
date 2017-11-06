@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang ="pt-br">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="descriptiosn" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="Carlito Daniel Souza">
+  <link rel ="stylesheet" type="text/css" href="css/style.css"/>
+  <script type="text/javascript" src="js/script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body id='corpo' >
+
+<section id="home" class="parallax" data-speed="15">
+<header>
+		<nav id="menuHeader" class="menu-fixo">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Lojas</a></li>
+				<li><a href="#">Doações</a></li>
+				<li><a href="#">Cadastre-se</a></li>
+<li>
+<div class="menu-trigger" id="menu-trigger">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+  <ul>
+<nav class="menu-hidde" id="menu-hidde">
+  <img src="img/logo1.png" width="260" height="140" />
+
+
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#News">Novidades</a></li>
+    <li><a href="#Games">Games</a></li>
+    <li><a href="#Sobre">Sobre</a></li>
+</nav>
+</ul>
+</li>
+</ul>
+</nav>
+</header>
+    <article>
+        <header>
+            <h1>Seja Bem Vindo!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aperiam, tempore laudantium a nesciunt quo possimus, quidem quae cum, doloremque facilis, aliquid eveniet porro amet labore autem expedita adipisci vitae?</p>
+
+        </header>
+    </article>
+<a href="fifa18.html"><button class="button button2">Saiba Mais</button></a>
+</section>
+<section id="portfolio" class="parallax" data-speed="10">
+
+  <article>
+    <header>
+      <h1>Seja Bem Vindo!</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aperiam, tempore laudantium a nesciunt quo possimus, quidem quae cum, doloremque facilis, aliquid eveniet porro amet labore autem expedita adipisci vitae?</p>
+    </header>
+  </article>
+</section>
+<section id="portfolio2" class="parallax" data-speed="3">
+  <article>
+    <ul>
+      <li><a href=""><img src="http://placehold.it/250x250" alt=""width="250" height="450"></a></li>
+      <li><a href=""><img src="http://placehold.it/250x250" alt=""width="250" height="450"></a></li>
+      <li><a href=""><img src="http://placehold.it/250x250" alt=""width="250" height="450"></li>
+      <li><a href=""><img src="http://placehold.it/250x250" alt=""width="250" height="450"></img></a></li>
+
+    </ul>
+  </article>
+</section>
+<section id="portfolio" class="parallax" data-speed="3">
+  <article>
+    <header>
+      <h1>Alguns de nossos Trabalhos</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, deleniti. Maxime, reprehenderit, incidunt? Qui, placeat, nostrum error itaque animi sit vel qu.</p>
+    </header>
+    <ul>
+      <li><a href=""><img src="http://placehold.it/250x250" alt=""></a></li>
+      <li><a href=""><img src="http://placehold.it/250x250" alt=""></a></li>
+      <li><a href=""><img src="http://placehold.it/250x250" alt=""></a></li>
+      <li><a href=""><img src="http://placehold.it/250x250" alt=""></a></li>
+    </ul>
+  </article>
+</section>
+<script>
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+var veri = 1;
+var trigger = document.getElementById('menu-trigger').addEventListener("click",function(){
+    var menu = document.getElementById('menu-hidde');
+    if (veri == 1) {
+        document.getElementById('corpo').style.overflow = 'hidden';
+        menu.style.left = "0px";
+        veri = 0;
+    }
+    else{
+        document.getElementById('corpo').style.overflow = 'visible';  menu.style.left = "-100%";
+        veri = 1;
+    }
+})
+
+</script>
+
+</body>
+</html>
